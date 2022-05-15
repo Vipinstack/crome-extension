@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.5, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logojobs.png" type="image/x-icon">
+  <meta name="description" content="New SecureM4 Theme HTML Template - Download Now!">
+  
+  <title>jokes</title>
+</head>
+<body>
+<script>
+    class Student{
+        constructor(name){
+            this.name = name;
+            console.log(`This is an only constructor:- ${name}`);
+        }
+
+        boiData(){
+            return(`I am student and My  self ${this.name}. this is a method and functionality`);
+        }
+    }
+
+    class Game extends Student{
+        constructor(name,sirname){
+            super(name);
+            this.sirname= sirname;
+        }
+        Game(){
+            return(`${boiData()}.This is a next clid node ${this.sirname}`);
+        }
+    }
+    const result = new Student("Vipin");
+    console.log(result.boiData());
+    console.log(result);
+    // this is child class used matlb ki inheritance used kr rha hai bss.
+    const result1 = new Game("chauhan");
+    console.log(result1.Game());
+    console.log(result1);
+</script>
+</body>
+</html>
